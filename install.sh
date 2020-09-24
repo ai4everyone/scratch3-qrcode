@@ -3,7 +3,7 @@
 LF=$(printf '\\\012_')
 LF=${LF%_}
 REPOSITORY_NAME="scratch3-qrcode"
-EXTENSION_NAME="QRコード"
+EXTENSION_NAME="QRscnner"
 EXTENSION_ID="qrcode"
 COLLABORATOR="DrDataNG_Bull-B"
 EXTENSION_DESCRIPTION="Scan the QR code.{credit}"
@@ -36,7 +36,7 @@ DESCRIPTION="\
                 defaultMessage='${EXTENSION_DESCRIPTION}'${LF}\
                 description='${EXTENSION_DESCRIPTION}'${LF}\
                 values={{${LF}\
-                    credit:<div style={{fontSize: '0.6em'}}>QRコードは株式会社デンソーウェーブの登録商標です。</div>${LF}\
+                    credit:<div style={{fontSize: '0.6em'}}></div>${LF}\
                 }}${LF}\
                 id='gui.extension.${EXTENSION_ID}blocks.description'${LF}\
             />${LF}\
